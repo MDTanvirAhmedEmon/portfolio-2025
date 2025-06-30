@@ -36,12 +36,12 @@ export default function Home() {
         <div className="flex flex-col sm:flex-row justify-center gap-3 md:gap-4 px-4">
           <button
 
-            className="bg-blue-600 hover:bg-blue-700 text-white px-6 md:px-8 py-2 md:py-3 rounded-full text-sm md:text-base cursor-pointer"
+            className=" bg-gray-900 hover:bg-gray-950 text-white px-6 md:px-8 py-2 md:py-3 rounded-full text-sm md:text-base cursor-pointer"
           >
             View My Work
           </button>
           <button
-            className="border-gray-600 text-gray-300 hover:bg-gray-800 px-6 md:px-8 py-2 md:py-3 rounded-full text-sm md:text-base cursor-pointer"
+            className="border-gray-600 text-gray-300 bg-[#ffffff3a] hover:bg-[#ffffff4f] px-6 md:px-8 py-2 md:py-3 rounded-full text-sm md:text-base cursor-pointer"
           >
             Get In Touch
           </button>

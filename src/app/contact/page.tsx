@@ -46,7 +46,7 @@ const Contact = () => {
                 </div>
 
                 <div className="flex flex-col sm:flex-row justify-center gap-3 md:gap-6 flex-wrap mb-8 md:mb-8 px-4">
-                    <Button className="bg-blue-600 hover:bg-blue-700 text-white px-6 md:px-8 py-2 md:py-3 rounded-full text-sm md:text-base cursor-pointer">
+                    <Button className="bg-gray-800 hover:bg-gray-900 text-white px-6 md:px-8 py-2 md:py-3 rounded-full text-sm md:text-base cursor-pointer">
                         <Mail className="w-4 h-4 md:w-5 md:h-5 mr-2" />
                         Send Email
                     </Button>

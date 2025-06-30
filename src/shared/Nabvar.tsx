@@ -34,13 +34,15 @@ const Navbar = () => {
                                 <Code className="w-5 h-5 md:w-6 md:h-6 text-white" />
                             </button>
                         </Link>
-                        <button
-                            className={`p-2 md:p-3 rounded-lg md:rounded-xl transition-all duration-300 hover:scale-110 touch-manipulation cursor-pointer ${pathname === "/projects" ? "bg-white/20 shadow-lg scale-110" : "hover:bg-white/10"
-                                }`}
-                            title="Projects"
-                        >
-                            <Briefcase className="w-5 h-5 md:w-6 md:h-6 text-white" />
-                        </button>
+                        <Link href={`/projects`}>
+                            <button
+                                className={`p-2 md:p-3 rounded-lg md:rounded-xl transition-all duration-300 hover:scale-110 touch-manipulation cursor-pointer ${pathname === "/projects" ? "bg-white/20 shadow-lg scale-110" : "hover:bg-white/10"
+                                    }`}
+                                title="Projects"
+                            >
+                                <Briefcase className="w-5 h-5 md:w-6 md:h-6 text-white" />
+                            </button>
+                        </Link>
                         <Link href={`/contact`}>
                             <button
                                 className={`p-2 md:p-3 rounded-lg md:rounded-xl transition-all duration-300 hover:scale-110 touch-manipulation cursor-pointer ${pathname === "/contact" ? "bg-white/20 shadow-lg scale-110" : "hover:bg-white/10"
