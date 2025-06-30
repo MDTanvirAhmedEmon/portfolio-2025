@@ -27,7 +27,7 @@ const Skills = () => {
     }
 
     return (
-        <section className="min-h-screen md:h-screen flex items-center justify-center px-4 py-8 md:py-0 bg-gradient-to-br from-slate-900 via-blue-900 to-slate-900">
+        <section className="min-h-screen md:h-screen flex items-center justify-center px-4 pb-24 md:pb-0 pt-14 md:pt-0 bg-gradient-to-br from-slate-900 via-blue-900 to-slate-900">
             <div className="max-w-6xl mx-auto w-full">
                 <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white text-center mb-8 md:mb-16">
                     Skills & Technologies

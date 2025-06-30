@@ -11,7 +11,7 @@ import {
 
 const Contact = () => {
     return (
-        <section className="min-h-screen md:h-screen flex items-center justify-center px-4 py-8 md:py-0 bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900">
+        <section className="min-h-screen md:h-screen flex items-center justify-center px-4 pb-24 md:pb-0 pt-14 md:pt-0 bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900">
             <div className="max-w-4xl mx-auto w-full text-center">
                 <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white mb-6 md:mb-5">Let&apos;s Work Together</h2>
                 <p className="text-base md:text-xl text-gray-400 mb-8 md:mb-8 max-w-2xl mx-auto px-4">
