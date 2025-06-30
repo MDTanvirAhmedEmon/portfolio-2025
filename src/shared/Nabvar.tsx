@@ -41,13 +41,15 @@ const Navbar = () => {
                         >
                             <Briefcase className="w-5 h-5 md:w-6 md:h-6 text-white" />
                         </button>
-                        <button
-                            className={`p-2 md:p-3 rounded-lg md:rounded-xl transition-all duration-300 hover:scale-110 touch-manipulation cursor-pointer ${pathname === "/contact" ? "bg-white/20 shadow-lg scale-110" : "hover:bg-white/10"
-                                }`}
-                            title="Contact"
-                        >
-                            <Mail className="w-5 h-5 md:w-6 md:h-6 text-white" />
-                        </button>
+                        <Link href={`/contact`}>
+                            <button
+                                className={`p-2 md:p-3 rounded-lg md:rounded-xl transition-all duration-300 hover:scale-110 touch-manipulation cursor-pointer ${pathname === "/contact" ? "bg-white/20 shadow-lg scale-110" : "hover:bg-white/10"
+                                    }`}
+                                title="Contact"
+                            >
+                                <Mail className="w-5 h-5 md:w-6 md:h-6 text-white" />
+                            </button>
+                        </Link>
                     </div>
                 </div>
             </nav >
