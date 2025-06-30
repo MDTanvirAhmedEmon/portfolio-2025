@@ -15,8 +15,8 @@ export default function Home() {
           </h1>
           <p className="text-lg sm:text-xl md:text-2xl text-gray-300 mb-4 md:mb-6">MERN Stack Developer</p>
           <p className="text-sm sm:text-base md:text-lg text-gray-400 max-w-2xl mx-auto leading-relaxed mb-6 md:mb-8 px-4">
-            Passionate full-stack developer specializing in MongoDB, Express.js, React.js, and Node.js. I create modern,
-            scalable web applications with clean code and exceptional user experiences.
+            Passionate full-stack developer specializing in React.js, Next Js, Express.js, Node.js, MongoDB and React Native.
+            I create modern, scalable web and mobile applications with clean code and exceptional user experiences.
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 md:gap-6 max-w-2xl mx-auto text-center mb-6 md:mb-0">
             <div className="bg-white/10 backdrop-blur-lg rounded-lg p-3 md:p-4 border border-white/20">

@@ -13,8 +13,8 @@ const Navbar = () => {
             {/* {renderCurrentSection()} */}
 
             {/* macOS-style Dock Navigation */}
-            <nav className="fixed bottom-2 md:bottom-4 left-1/2 transform -translate-x-1/2 z-50">
-                <div className="bg-white/10 backdrop-blur-lg rounded-xl md:rounded-2xl p-1 md:p-2 border border-white/20 shadow-2xl">
+            <nav className="fixed bottom-3 md:bottom-4 left-1/2 transform -translate-x-1/2 z-50">
+                <div className="bg-white/10 backdrop-blur-lg rounded-xl md:rounded-2xl p-1.5 md:p-2 border border-white/20 shadow-2xl">
                     <div className="flex items-center gap-1 md:gap-2">
                         <Link href={`/`}>
                             <button

@@ -70,7 +70,7 @@ const Projects = () => {
                     {projects.map((project, index) => (
                         <Card
                             key={index}
-                            className="bg-white/10 backdrop-blur-lg border-white/20 overflow-hidden hover:transform hover:scale-105 transition-all duration-300"
+                            className="bg-white/10 backdrop-blur-lg border-white/20 overflow-hidden md:hover:transform md:hover:scale-105 md:transition-all md:duration-300"
                         >
                             <div className="aspect-video bg-gradient-to-br from-blue-500/20 to-purple-500/20 flex items-center justify-center">
                                 <Smartphone className="w-10 h-10 md:w-12 md:h-12 text-white/50" />
@@ -99,7 +99,7 @@ const Projects = () => {
                                         <Github className="w-3 h-3 mr-1" />
                                         Code
                                     </Button>
-                                    <Button size="sm" className="bg-blue-600 hover:bg-blue-700 flex-1 text-xs cursor-pointer text-white">
+                                    <Button size="sm" className="bg-gray-500 hover:bg-gray-600 flex-1 text-xs cursor-pointer text-white">
                                         <ExternalLink className="w-3 h-3 mr-1" />
                                         Live
                                     </Button>
